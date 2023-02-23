@@ -7,7 +7,7 @@ import java.lang.InterruptedException;
 		public static void main(String[] args){
 			try
 			{	
-			Tablero tablero = new Tablero(int [][]);
+			Tablero tablero = new Tablero();
 			System.out.println("SIMULACIÓN CON TABLERO LEÍD	");
 			tablero.leerEstadoActual();
 			System.out.println(tablero);
